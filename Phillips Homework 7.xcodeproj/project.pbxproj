@@ -15,6 +15,8 @@
 		160EF83324354CD00049912B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160EF83124354CD00049912B /* LaunchScreen.storyboard */; };
 		160EF83E24354CD00049912B /* Phillips_Homework_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160EF83D24354CD00049912B /* Phillips_Homework_7Tests.swift */; };
 		160EF84924354CD10049912B /* Phillips_Homework_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160EF84824354CD10049912B /* Phillips_Homework_7UITests.swift */; };
+		160EF857243555670049912B /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160EF856243555670049912B /* GPSViewController.swift */; };
+		160EF859243563FB0049912B /* tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160EF858243563FB0049912B /* tabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		160EF84424354CD10049912B /* Phillips Homework 7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phillips Homework 7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		160EF84824354CD10049912B /* Phillips_Homework_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phillips_Homework_7UITests.swift; sourceTree = "<group>"; };
 		160EF84A24354CD10049912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160EF856243555670049912B /* GPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
+		160EF858243563FB0049912B /* tabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		160EF81A24354CCE0049912B = {
 			isa = PBXGroup;
 			children = (
+				160EF858243563FB0049912B /* tabViewController.swift */,
 				160EF82524354CCF0049912B /* Phillips Homework 7 */,
 				160EF83C24354CD00049912B /* Phillips Homework 7Tests */,
 				160EF84724354CD10049912B /* Phillips Homework 7UITests */,
@@ -103,6 +108,7 @@
 				160EF82824354CCF0049912B /* SceneDelegate.swift */,
 				160EF82A24354CCF0049912B /* ViewController.swift */,
 				160EF82C24354CCF0049912B /* Main.storyboard */,
+				160EF856243555670049912B /* GPSViewController.swift */,
 				160EF82F24354CD00049912B /* Assets.xcassets */,
 				160EF83124354CD00049912B /* LaunchScreen.storyboard */,
 				160EF83424354CD00049912B /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160EF859243563FB0049912B /* tabViewController.swift in Sources */,
 				160EF82B24354CCF0049912B /* ViewController.swift in Sources */,
 				160EF82724354CCF0049912B /* AppDelegate.swift in Sources */,
 				160EF82924354CCF0049912B /* SceneDelegate.swift in Sources */,
+				160EF857243555670049912B /* GPSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
