@@ -44,6 +44,54 @@
             <point key="canvasLocation" x="782.60869565217399" y="-254.46428571428569"/>
         </scene>
         <!--Item-->
+        <scene sceneID="96l-lr-982">
+            <objects>
+                <viewController id="jf1-PS-cNo" customClass="ViewController" customModule="Phillips_Homework_7" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bcM-zp-OlE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tON-I4-QdZ">
+                                <rect key="frame" x="32" y="92" width="346" height="391"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="998-5u-0JY">
+                                <rect key="frame" x="133" y="512" width="148" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Visit Website"/>
+                                <connections>
+                                    <action selector="openSite:" destination="jf1-PS-cNo" eventType="touchUpInside" id="UmO-Oz-2Rc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TkW-zN-QkS">
+                                <rect key="frame" x="143" y="658" width="124" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Text Message"/>
+                                <connections>
+                                    <action selector="TextMessage:" destination="jf1-PS-cNo" eventType="touchUpInside" id="AAp-nY-vW8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fvM-Wl-jph"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="globe" catalog="system" id="Lpv-vw-BNU"/>
+                    <connections>
+                        <outlet property="webView" destination="tON-I4-QdZ" id="TPa-GO-KnE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m4u-bI-bOV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782.60869565217399" y="1096.875"/>
+        </scene>
+        <!--Item-->
         <scene sceneID="pTy-3D-Osg">
             <objects>
                 <viewController id="f28-pq-bGo" customClass="GPSViewController" customModule="Phillips_Homework_7" customModuleProvider="target" sceneMemberID="viewController">
@@ -96,6 +144,7 @@
                     <connections>
                         <segue destination="O1i-rJ-hoJ" kind="relationship" relationship="viewControllers" id="M9n-Hn-p4f"/>
                         <segue destination="f28-pq-bGo" kind="relationship" relationship="viewControllers" id="UxI-qd-X9X"/>
+                        <segue destination="jf1-PS-cNo" kind="relationship" relationship="viewControllers" id="8lQ-cd-F3T"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B7P-dl-8Pp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -110,5 +159,6 @@
         <image name="airplane" catalog="system" width="64" height="56"/>
         <image name="camera" catalog="system" width="64" height="48"/>
         <image name="camera.fill" catalog="system" width="64" height="48"/>
+        <image name="globe" catalog="system" width="64" height="60"/>
     </resources>
 </document>

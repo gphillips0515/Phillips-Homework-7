@@ -17,6 +17,7 @@
 		160EF84924354CD10049912B /* Phillips_Homework_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160EF84824354CD10049912B /* Phillips_Homework_7UITests.swift */; };
 		160EF857243555670049912B /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160EF856243555670049912B /* GPSViewController.swift */; };
 		160EF859243563FB0049912B /* tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160EF858243563FB0049912B /* tabViewController.swift */; };
+		1626986E244FECFA00FC5C50 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1626986D244FECFA00FC5C50 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		160EF84A24354CD10049912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		160EF856243555670049912B /* GPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
 		160EF858243563FB0049912B /* tabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabViewController.swift; sourceTree = "<group>"; };
+		1626986D244FECFA00FC5C50 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1626986E244FECFA00FC5C50 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +91,7 @@
 				160EF83C24354CD00049912B /* Phillips Homework 7Tests */,
 				160EF84724354CD10049912B /* Phillips Homework 7UITests */,
 				160EF82424354CCF0049912B /* Products */,
+				1626986C244FECFA00FC5C50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +136,14 @@
 				160EF84A24354CD10049912B /* Info.plist */,
 			);
 			path = "Phillips Homework 7UITests";
+			sourceTree = "<group>";
+		};
+		1626986C244FECFA00FC5C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1626986D244FECFA00FC5C50 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
